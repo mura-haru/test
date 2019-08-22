@@ -1,0 +1,338 @@
+/*
+Theme Name: Lucky Field
+Theme URI: https://pyonsee.com/
+Description: Lucky Field
+Author: Web needs
+Author URI: https://webneeds.jp/
+Version: 5.2
+
+*/
+
+@charset "utf-8";
+/* CSS Document */
+img{
+    max-width:100%;
+    height: auto;
+    width: auto;
+}
+
+html{
+	font-size: 62.5%;
+	letter-spacing: 0.07em;
+}
+
+body{
+	font-family:Meiryo,Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	font-size: 1.6em;
+	color: #396;
+}
+
+li,p,span,dt,dd{
+	list-style-type: none;
+	line-height: 2;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration: none;
+	color: #339966;
+}
+
+.header-inner{
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.mv{
+	background:url(../../images/mv_top.png) center no-repeat;
+	height: 660px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	margin-top: 35px;
+}
+
+.ribbon{
+	position: absolute;
+	top: 0;
+	left: 216px;
+}
+
+.mv p{
+	font-size: 4rem;
+	color:#ac9169;
+}
+
+.pop{
+	position: absolute;
+	top: 220px;
+	right: 300px;
+}
+
+.nav1{
+	display: flex;
+	justify-content: end;
+	width: 1400px;
+	margin: 20px auto 0;
+}
+
+.nav1 :hover{
+	opacity: 0.8;
+}
+
+.nav1 img{
+	vertical-align: text-bottom;
+	padding: 0 5px;
+}
+
+.nav1 li{
+	margin-right: 20px;
+}
+
+.nav_hover:hover{
+	border-bottom:5px solid #339966;
+	opacity: 0.8;
+}
+
+.nav2{
+	width: 800px;
+	margin: 0 auto;
+}
+
+nav li{
+	display: table-cell;
+	width: calc(100%/5);
+	text-align: center;
+	font-weight: bold;
+}
+
+nav img:hover{
+	opacity: 0.8;
+}
+
+.category_top{
+	display: flex;
+	width: 1000px;
+}
+
+.category_top a:hover{
+	opacity: 0.6;
+}
+
+.category_top a{
+	display: inline-grid;
+	margin: 100px 40px 70px;
+	line-height: 1.5;
+}
+
+.category_top img{
+	padding: 0 0 10px;
+}
+
+main{
+	background: url(../../images/top_bg_melon.jpg);
+	background-repeat: repeat;
+}
+
+.main_inner{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0 0 50px;
+}
+
+.side_banner_flex{
+	display: flex;
+	justify-content: space-around;
+}
+
+.sidebar{
+	width: 250px;
+	text-align: center;
+}
+
+.title_bg{
+	background:#339966;
+	color:#fff;
+	border-radius: 5px 5px 0 0;
+	padding: 10px 0 5px 0;
+}
+
+.category_bg{
+	background: #fff;
+	border-radius: 0 0 5px 5px;
+	border: 2px solid #339966;
+	padding: 10px 0;
+	margin: 0 0 20px;
+	font-size: 1.4rem;
+}
+
+.login_top a:hover{
+	opacity: 0.8;
+}
+
+.side_category_item{
+	text-align: left;
+	padding-left: 20px;
+}
+
+.side_category_item a:hover{
+	opacity: 0.8;
+}
+
+.side_category img{
+	vertical-align:middle;
+}
+
+.side_category li{
+	margin-bottom: 5px;
+}
+
+.banner{
+	width:613px;
+}
+
+.banner a:hover{
+	opacity: 0.8;
+}
+
+.banner_up{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.news{
+	margin: 20px 0 0;
+}
+
+.news li{
+	border-bottom:1px dotted #ac9169;
+	margin: 20px 0 10px;
+}
+
+.news a{
+	display: flex;
+	text-decoration: underline;
+}
+
+.news_icon{
+	margin: 0 10px 0 0;
+	vertical-align: sub;
+}
+
+.news_time {
+	margin: 0 30px 0 0;
+	text-decoration: none;
+}
+
+footer{
+	background: #339966;
+	color: #fff;
+	border: 4px solid #396;
+	border-radius: 0px 420px 0 0;
+	font-size: 1.4rem;
+}
+
+.footer_left{
+	float: left;
+}
+
+.footer-inner{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 40px 15px 15px;
+}
+
+.footer_nav{
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	justify-content: end;
+}
+
+.footer_nav p{
+	color: #fff;
+}
+
+.footer_logo{
+	margin-bottom: 10px;
+}
+
+.label1,.label2{
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.footer_map{
+	margin: 0 40px 0;
+}
+
+.footer_copyright{
+	text-align: center;
+}
+
+/*会社案内*/
+
+.mv_company{
+	margin: 27px 0 120px;
+}
+
+.mv_inner_company{
+	background: url(../../company/images/company_mv.jpg) center/cover no-repeat;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mv_company h1{
+	padding:10px 40px;
+	border:3px solid #339966;
+	border-radius: 10px 10px 45px 45px;
+	background: #fff;
+	font-weight: bold;
+	font-size: 1.8rem;
+}
+
+.yoshida_intro{
+	display:flex;
+	justify-content: space-around;
+}
+
+.yoshida_text{
+	width:569px;
+}
+
+.yoshida_text h2{
+	font-size: 2.4rem;
+	font-weight: bold;
+}
+
+.yoshida_text p{
+	margin-top: 30px;
+}
+
+.po{
+	display:flex;
+	justify-content: space-around;
+	margin: 130px 0 100px;
+}
+
+.po_text{
+	width:500px;
+	margin:30px 0 0 ;
+}
+
+.po_text p{
+	margin:-32px 0 0 100px;
+}
